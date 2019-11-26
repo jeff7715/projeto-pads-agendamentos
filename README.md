@@ -2,7 +2,25 @@
 Projeto realizado pelos alunos de Projeto de Análise e Desenvolvimentos de Sistemas do curso de Tecnologia em Sistemas para Internet. Este é um sistema de agendamento de consultas de uma clínica.
 
 
-# Angular
+
+## Como contribuir
+
+* Crie uma branch referente à sua issue:
+
+No terminal:
+
+`git branch nome-da-branch`
+
+Exemplo no nosso projeto:
+
+`git branch interface-cadastro-agendamento`
+
+* Faça o checkout para a branch e trabalhe nela.
+
+`git checkout interface-cadastro-agendamento`
+
+
+## Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
 
