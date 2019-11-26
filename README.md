@@ -8,7 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Starting project
 
-Run `git clone` https://github.com/AngelicaAlbano/projeto-pads-agendamentos.git or see this [link](https://gist.github.com/alexpchin/102854243cd066f8b88e).
+Run `git clone https://github.com/AngelicaAlbano/projeto-pads-agendamentos.git` or see this [link](https://gist.github.com/alexpchin/102854243cd066f8b88e).
 
 Run `npm install` to run node modules.
 
