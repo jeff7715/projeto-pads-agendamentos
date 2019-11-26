@@ -2,7 +2,6 @@
 Projeto realizado pelos alunos de Projeto de Análise e Desenvolvimentos de Sistemas do curso de Tecnologia em Sistemas para Internet. Este é um sistema de agendamento de consultas de uma clínica.
 
 
-
 ## Como contribuir
 
 * Crie uma branch referente à sua issue:
@@ -19,29 +18,32 @@ Exemplo no nosso projeto:
 
 `git checkout interface-cadastro-agendamento`
 
+* Após realizar as modificações, utilize normalmente os comandos `git add`, `git commit` e `git push` para registrar suas
+alterações.
+
+Obs.: Note que as modificações serão registradas nas branches para depois serem incorporadas na master, evitando conflitos.
+
 
 ## Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
+Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 8.2.1.
 
-## Starting project
+## Iniciando o Projeto
 
-Run `git clone https://github.com/AngelicaAlbano/projeto-pads-agendamentos.git` or see this [link](https://gist.github.com/alexpchin/102854243cd066f8b88e).
+* Faça o clone ou adicione o repositório a um projeto existente
 
-Run `npm install` to run node modules.
+Execute `git clone https://github.com/AngelicaAlbano/projeto-pads-agendamentos.git` ou veja este [link](https://gist.github.com/alexpchin/102854243cd066f8b88e), caso vocẽ já tenha iniciado o projeto.
 
-## Development server
+Execute `npm install` para instalar os node_modules.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Rodar o Projeto
 
-## Code scaffolding
+Execute `ng serve` e vá para `http://localhost:4200/`. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Trabalhando no Angular
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
+Execute `ng generate component component-name` para criar automaticamente um componente. Você também pode fazer isso
+para os seguintes itens `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 
 ## Colaboradores
