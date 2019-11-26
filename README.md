@@ -1,4 +1,4 @@
-# projeto-pads-agendamentos
+# Agendamentos de Consultas
 Projeto realizado pelos alunos de Projeto de Análise e Desenvolvimentos de Sistemas do curso de Tecnologia em Sistemas para Internet. Este é um sistema de agendamento de consultas de uma clínica.
 
 
@@ -26,3 +26,13 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 
 
+## Colaboradores
+
+* Angélica Albano
+* Lukas Pol
+* Diego Araújo
+* Vinicius do Nascimento
+* Everson Silva
+* Emanuel Campelo
+* Mateus Barbosa
+* Zanette Ciriaco
