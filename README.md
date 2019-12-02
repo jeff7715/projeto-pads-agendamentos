@@ -23,6 +23,11 @@ alterações.
 
 Obs.: Note que as modificações serão registradas nas branches para depois serem incorporadas na master, evitando conflitos.
 
+* Por fim, solicite o `pull request` para incorporarmos sua branch na branch master.
+
+Ao acessar sua branch, note que há um botão com o nome 'Pull requests'. Solicite e voilá! 
+
+Obs.: Criamos um template para padronizar os PRs, você pode ver [aqui](https://github.com/AngelicaAlbano/projeto-pads-agendamentos/blob/6-infra-projeto/.github/pull_request_template.md).
 
 ## Angular
 
