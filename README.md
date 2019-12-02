@@ -19,7 +19,7 @@ Exemplo no nosso projeto:
 `git checkout interface-cadastro-agendamento`
 
 * Após realizar as modificações, utilize normalmente os comandos `git add`, `git commit` e `git push` para registrar suas
-alterações.
+alterações. Caso não saiba como funciona o git, acesse este [tutorial](https://rogerdudler.github.io/git-guide/index.pt_BR.html).
 
 Obs.: Note que as modificações serão registradas nas branches para depois serem incorporadas na master, evitando conflitos.
 
