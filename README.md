@@ -1,27 +1,63 @@
-# Clinica
+# Agendamentos de Consultas
+Projeto realizado pelos alunos de Projeto de Análise e Desenvolvimentos de Sistemas do curso de Tecnologia em Sistemas para Internet. Este é um sistema de agendamento de consultas de uma clínica.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
 
-## Development server
+## Como contribuir
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Crie uma branch referente à sua issue:
 
-## Code scaffolding
+No terminal:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+`git branch nome-da-branch`
 
-## Build
+Exemplo no nosso projeto:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+`git branch interface-cadastro-agendamento`
 
-## Running unit tests
+* Faça o checkout para a branch e trabalhe nela.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+`git checkout interface-cadastro-agendamento`
 
-## Running end-to-end tests
+* Após realizar as modificações, utilize normalmente os comandos `git add`, `git commit` e `git push` para registrar suas
+alterações. Caso não saiba como funciona o git, acesse este [tutorial](https://rogerdudler.github.io/git-guide/index.pt_BR.html).
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Obs.: Note que as modificações serão registradas nas branches para depois serem incorporadas na master, evitando conflitos.
 
-## Further help
+* Por fim, solicite o `pull request` para incorporarmos sua branch na branch master.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Ao acessar sua branch, note que há um botão com o nome 'Pull requests'. Solicite e voilá! 
+
+Obs.: Criamos um template para padronizar os PRs, você pode ver [aqui](https://github.com/AngelicaAlbano/projeto-pads-agendamentos/blob/6-infra-projeto/.github/pull_request_template.md).
+
+## Angular
+
+Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 8.2.1.
+
+## Iniciando o Projeto
+
+* Faça o clone ou adicione o repositório a um projeto existente
+
+Execute `git clone https://github.com/AngelicaAlbano/projeto-pads-agendamentos.git` ou veja este [link](https://gist.github.com/alexpchin/102854243cd066f8b88e), caso vocẽ já tenha iniciado o projeto.
+
+Execute `npm install` para instalar os node_modules.
+
+## Rodar o Projeto
+
+Execute `ng serve` e vá para `http://localhost:4200/`. 
+
+## Trabalhando no Angular
+
+Execute `ng generate component component-name` para criar automaticamente um componente. Você também pode fazer isso
+para os seguintes itens `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+
+## Colaboradores
+
+* Angélica Albano
+* Lukas Pol
+* Diego Araújo
+* Vinicius do Nascimento
+* Everson Silva
+* Emanuel Campelo
+* Mateus Barbosa
+* Zanette Ciriaco
