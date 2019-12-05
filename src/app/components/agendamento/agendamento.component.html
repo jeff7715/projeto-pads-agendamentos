@@ -1,0 +1,50 @@
+<section class="box-agendamento">
+  <div class="progresso">
+      <p class="progresso-atual " [ngClass]="{'complete': agendamento.especialidade}">
+        <span [ngClass]="{'complete': agendamento.especialidade}"></span>
+      </p>
+
+      <p class="progresso-atual" [ngClass]="{'complete': agendamento.medico}">
+        <span [ngClass]="{'complete': agendamento.medico}"></span>
+      </p>
+
+      <p class="progresso-atual" [ngClass]="{'complete': agendamento.hora}">
+        <span [ngClass]="{'complete': agendamento.hora}"></span>
+      </p>
+  </div>
+
+  <form #form="ngForm" (ngSubmit)="cadastrar(form)" class="form-agendamento">
+
+
+    <div class="box-input">
+        <label for="especialidade">Selecionar Especialidade</label>
+        <select id="especialidade" name="especialidade" #especialidade [(ngModel)]="agendamento.especialidade">
+          <option value="1">Dentista</option>
+          <option value="2">Médico</option>
+        </select>
+    </div>
+
+    <div class="box-input invisible" [ngClass]="{'visible': agendamento.especialidade}">
+        <label for="medico">Selecione o Médico</label>
+        <select id="medico" name="medico" #medico [(ngModel)]="agendamento.medico">
+          <option value="1">Luiz Algusto</option>
+          <option value="2">João Paulo</option>
+        </select>
+    </div>
+
+    <div class="box-input invisible" [ngClass]="{'visible': agendamento.medico && agendamento.especialidade}">
+        <label for="hora">Selecione o Horário</label>
+        <select id="hora" name="hora" #hora [(ngModel)]="agendamento.hora">
+          <option value="1">07:00</option>
+          <option value="2">09:00</option>
+          <option value="2">11:00</option>
+          <option value="2">13:00</option>
+          <option value="2">15:00</option>
+          <option value="2">17:00</option>
+        </select>
+    </div>
+
+
+    <button class="btn-agendar">Agendar</button>
+  </form>
+</section>
