@@ -81,7 +81,7 @@
 	transform: translate3d(-80px, 0, 0);
 }
 
-.btn-agendar {
+.btn-agendar, .btn-confirmar{
 	width: 220px;
 	padding: 14px 15px;
 	border: none;
