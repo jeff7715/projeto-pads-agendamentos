@@ -87,3 +87,18 @@ ALTER TABLE tbTelefone
     
 ALTER TABLE tbEndereco
 	ADD CONSTRAINT fk_PesEnd FOREIGN KEY (codPessoa) REFERENCES tbPessoa (codPessoa);
+
+
+
+/*Pega médicos com àquela especialidade passada*/
+SELECT  med.idMedico, pe.nome FROM tbespecialidade esp
+INNER JOIN tbmedico med ON esp.idEspecialidade = med.idEspecialidade
+INNER JOIN tbpessoa pe ON med.idMedico = pe.codPessoa
+WHERE esp.idEspecialidade = idEspecialidadePesquisada
+
+
+/*Pega os horarios disponiveis para o médico selecionado */
+SELECT tbhora.dataHora FROM tbespecialidade esp
+INNER JOIN tbmedico med ON esp.idEspecialidade = med.idEspecialidade
+INNER JOIN tbhoradisponivel tbhora ON med.idMedico = tbhora.idMedico
+WHERE med.idMedico = 1 AND tbhora.disponivel = 1;

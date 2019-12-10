@@ -1,10 +1,11 @@
 const mysql = require('mysql');
+const { promisify }  = require('util');
 
 connection = mysql.createConnection({
 	host: 'localhost',
-	user: 'pads',
-	password: 'password',
+	user: 'root',
+	password: '',
 	database: 'agendaConsulta'
 });
 
-module.exports = connection;
+module.exports = promisify(connection.query).bind(connection);
